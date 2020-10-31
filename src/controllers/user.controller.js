@@ -21,3 +21,10 @@ exports.getAllUsers = async (req, res) => {
   
     res.status(200).send(response.rows);
 };
+
+exports.getUserById = async (req, res) => {
+    const userId = parseInt(req.params.id)
+    const response = await db.query(`SELECT * FROM Usuario WHERE id_usuario=${userId}`);
+
+    res.status(200).send(response.rows);
+}
