@@ -1,9 +1,9 @@
-# TRABALHO DISCIPLINA FUNDAMENTO DE BANCO DE DADOS
+## Trabalho disciplina Fundamentos de Banco de Dados
 
-## ESTRUTURA
+#### Estrutura
 Back-end entrega API para front-end estático
 
-## BANCO DE DADOS
+#### Banco de Dados
 Utilizando PostgreSQL (pgAdmin4): 
 * Executar script Script_Trabalho.sql localmente para inicializar BD
 * Alterar arquivo .env com os parâmetros personalizados, seguindo o modelo abaixo:
